@@ -1,0 +1,16 @@
+.Card{
+    width: 300px;
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: rgb(95, 250, 95);
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px lightblue;
+}
+
+.Card:hover{
+    transform:  rotate(10deg);
+    -webkit-transform:  rotate(10deg);
+    -moz-transform:  rotate(10deg)
+}
